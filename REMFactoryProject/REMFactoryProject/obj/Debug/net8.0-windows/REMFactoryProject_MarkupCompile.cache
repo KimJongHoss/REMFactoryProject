@@ -1,5 +1,5 @@
 ﻿REMFactoryProject
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\KJH\REMFactoryProject\REMFactoryProject\REMFactoryProject\App.xaml
 11407045341
 
-10296112824
+4-1806123974
 1981385397204
 MainWindow.xaml;
 
