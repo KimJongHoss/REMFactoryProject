@@ -47,8 +47,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T03:03:28.624Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "REMFactoryProject\\seung.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T03:03:12.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T03:03:12.51Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "REMFactoryProject\\ws.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T03:02:13.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T03:02:13.23Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "REMFactoryProject\\ryu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T03:01:49.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T03:01:49.764Z"
             },
             {
               "$type": "Document",
@@ -126,8 +122,7 @@
               "ToolTip": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml",
               "RelativeToolTip": "REMFactoryProject\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-01T02:10:23.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T02:10:23.211Z"
             },
             {
               "$type": "Document",
@@ -135,9 +130,9 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "REMFactoryProject\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml.cs",
-              "RelativeToolTip": "REMFactoryProject\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAAAFAAAA",
+              "ToolTip": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "REMFactoryProject\\MainWindow.xaml.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxUAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T02:10:20.378Z",
               "EditorCaption": ""
