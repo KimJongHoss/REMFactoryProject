@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|c:\\kjh\\remfactoryproject\\remfactoryproject\\remfactoryproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|solutionrelative:remfactoryproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|c:\\kjh\\remfactoryproject\\remfactoryproject\\remfactoryproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|solutionrelative:remfactoryproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "REMFactoryProject\\MainWindow.xaml",
+              "ToolTip": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml",
+              "RelativeToolTip": "REMFactoryProject\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-01T02:10:23.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "REMFactoryProject\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml.cs",
+              "RelativeToolTip": "REMFactoryProject\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T02:10:20.378Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
