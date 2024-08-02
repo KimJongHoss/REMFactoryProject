@@ -19,6 +19,47 @@ namespace REMFactoryProject
         public MainWindow()
         {
             InitializeComponent();
+            double[] dataX = { 1, 2, 3, 4, 5 };
+            double[] dataY = { 1, 4, 9, 16, 25 };
+            WpfPlot1.Plot.Add.Scatter(dataX, dataY);
+            WpfPlot1.Refresh();
+        }
+
+        private void slider_valueChanged(object sender, RoutedEventArgs e)
+        {
+            if (sliderLine1 != null && sliderLine2 != null && sliderLine3 != null &&
+                labelLine1 != null && labelLine2 != null && labelLine3 != null)
+            {
+                labelLine1.Content = sliderLine1.Value;
+                labelLine2.Content = sliderLine2.Value;
+                labelLine3.Content = sliderLine3.Value;
+
+                UpdateProgress(progressPath1, sliderLine1.Value);
+                UpdateProgress(progressPath2, sliderLine2.Value);
+                UpdateProgress(progressPath3, sliderLine3.Value);
+            }
+        }
+        private void UpdateProgress(Path path, double value)
+        {
+            double angle = value / 100 * 360;
+            double radius = 90;
+            double center = 100;
+
+            PathFigure pathFigure = new PathFigure();
+            pathFigure.StartPoint = new Point(center, center - radius);
+
+            ArcSegment arcSegment = new ArcSegment();
+            arcSegment.Point = new Point(center + radius * Math.Sin(angle * Math.PI / 180), center - radius * Math.Cos(angle * Math.PI / 180));
+            arcSegment.Size = new Size(radius, radius);
+            arcSegment.IsLargeArc = angle > 180;
+            arcSegment.SweepDirection = SweepDirection.Clockwise;
+
+            pathFigure.Segments.Add(arcSegment);
+
+            PathGeometry pathGeometry = new PathGeometry();
+            pathGeometry.Figures.Add(pathFigure);
+
+            path.Data = pathGeometry;
         }
     }
 }
