@@ -23,6 +23,7 @@ namespace REMFactoryProject
             double[] dataY = { 1, 4, 9, 16, 25 };
             WpfPlot1.Plot.Add.Scatter(dataX, dataY);
             WpfPlot1.Refresh();
+            getPanel2Data();
         }
 
         private void slider_valueChanged(object sender, RoutedEventArgs e)
@@ -61,5 +62,8 @@ namespace REMFactoryProject
 
             path.Data = pathGeometry;
         }
+
+       
+
     }
 }
