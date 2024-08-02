@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\jongho\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\jongho\\.nuget\\packages"
+      "C:\\Users\\dioa9\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dioa9\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
