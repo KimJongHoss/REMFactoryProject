@@ -23,6 +23,7 @@ namespace REMFactoryProject
         {
             InitializeComponent();
             chart1();
+            getPanel2Data();
         }
 
         private void slider_valueChanged(object sender, RoutedEventArgs e)
@@ -41,7 +42,7 @@ namespace REMFactoryProject
         }
         private void UpdateProgress(Path path, double value)
         {
-            double angle = value / 100 * 360;
+            double angle = value / 10000 * 360;
             double radius = 90;
             double center = 100;
 
@@ -60,6 +61,11 @@ namespace REMFactoryProject
             pathGeometry.Figures.Add(pathFigure);
 
             path.Data = pathGeometry;
+        }
+
+        private void managerLoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            login();
         }
     }
 }
