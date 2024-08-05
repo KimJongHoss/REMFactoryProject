@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("REMFactoryProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84d43d35b9d21d147866015669260fe000844e54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f47373e91011115d6d92be154266ae8ab2467b50")]
 [assembly: System.Reflection.AssemblyProductAttribute("REMFactoryProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("REMFactoryProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
