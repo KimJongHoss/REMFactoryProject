@@ -31,6 +31,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         },
@@ -48,8 +52,7 @@
               "RelativeToolTip": "REMFactoryProject\\ryu.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAA4wCYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T02:24:44.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T02:24:44.992Z"
             },
             {
               "$type": "Document",
@@ -61,8 +64,7 @@
               "RelativeToolTip": "REMFactoryProject\\MainWindow.xaml.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T01:01:11.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T01:01:11.601Z"
             },
             {
               "$type": "Document",
@@ -85,8 +87,7 @@
               "ToolTip": "C:\\Users\\USER\\Desktop\\\uB77C\uB514\uC54C\uAC00\uADF8\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\Resource1.resx",
               "RelativeToolTip": "REMFactoryProject\\Resource1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-08-02T00:58:23.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T00:58:23.71Z"
             }
           ]
         }
