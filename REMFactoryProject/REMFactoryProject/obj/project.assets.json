@@ -1207,19 +1207,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jongho\\.nuget\\packages\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\라디알가그\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject.csproj",
       "projectName": "REMFactoryProject",
-      "projectPath": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject.csproj",
-      "packagesPath": "C:\\Users\\jongho\\.nuget\\packages\\",
-      "outputPath": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\라디알가그\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\라디알가그\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jongho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1227,7 +1227,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
