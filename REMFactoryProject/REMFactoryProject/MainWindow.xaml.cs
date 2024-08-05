@@ -23,7 +23,6 @@ namespace REMFactoryProject
             double[] dataY = { 1, 4, 9, 16, 25 };
             WpfPlot1.Plot.Add.Scatter(dataX, dataY);
             WpfPlot1.Refresh();
-            getPanel2Data();
         }
 
         private void slider_valueChanged(object sender, RoutedEventArgs e)
@@ -42,7 +41,7 @@ namespace REMFactoryProject
         }
         private void UpdateProgress(Path path, double value)
         {
-            double angle = value / 100 * 360;
+            double angle = value / 10000 * 360;
             double radius = 90;
             double center = 100;
 
@@ -63,7 +62,9 @@ namespace REMFactoryProject
             path.Data = pathGeometry;
         }
 
-       
-
+        private void managerLoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            login();
+        }
     }
 }

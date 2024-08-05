@@ -8,11 +8,14 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using Microsoft.Data.Analysis;
+using System.Diagnostics.Eventing.Reader;
 
 namespace REMFactoryProject
 {
     public partial class MainWindow : Window
     {
+        string adminID = "admin123";
+        string adminPW = "admin123";
         public async Task getPanel2Data()
         {
             // Define data path
@@ -25,7 +28,17 @@ namespace REMFactoryProject
 
             foreach (var row in df.Rows)
             {
-                var date = (DateTime)row[0]; // 첫 번째 컬럼이 날짜 컬럼이라고 가정
+               
+                DateTime date;
+                if (DateTime.TryParse(row[0].ToString(), out date))
+                {
+                    date = (DateTime)row[0]; // 첫 번째 컬럼이 날짜 컬럼이라고 가정
+                }
+                else
+                {
+                    // date 변환 실패 - 적절한 예외 처리 또는 로그 출력
+                    throw new InvalidCastException("첫 번째 컬럼을 DateTime 형식으로 변환할 수 없습니다.");
+                }
                 var rowData = new List<object>();
 
                 foreach (var cell in row.Skip(1)) // 날짜 컬럼을 제외한 나머지 셀
@@ -49,24 +62,61 @@ namespace REMFactoryProject
                 {
                     foreach (var value in row)
                     {
-                        // UI 스레드에서 Label 업데이트
-                        Dispatcher.Invoke(() =>
+
+                        if (Dispatcher.CheckAccess())
                         {
-                            labelLine1.Content = value.ToString();
-                            labelLine2.Content = value.ToString();
-                            labelLine3.Content = value.ToString();
-                            sliderLine1.Value = (double)value;
-                            sliderLine2.Value = (double)value;
-                            sliderLine3.Value = (double)value;
-                        });
+                            UpdateUI(value);//label value와 slider value를 바꾸는 메서드 
+                        }
+                        else
+                        {
+                            Dispatcher.Invoke(() => UpdateUI(value));
+                        }
 
                         // 20ms 대기
-                        await Task.Delay(1000);
+                        await Task.Delay(500);
                     }
                 }
             }
         }
-       
+
+        void UpdateUI(object value)
+        {
+            labelLine1.Content = value.ToString();
+            labelLine2.Content = value.ToString();
+            labelLine3.Content = value.ToString();
+
+            if (double.TryParse(value.ToString(), out double doubleValue))
+            {
+                sliderLine1.Value = doubleValue;
+                sliderLine2.Value = doubleValue;
+                sliderLine3.Value = doubleValue;
+            }
+            else
+            {
+                // value를 double로 변환할 수 없는 경우에 대한 예외 처리 또는 로그 출력
+                Console.WriteLine("double로 처리할 수 없습니다.");
+            }
+        }
+
+        public void login()
+        {
+            if (idTextBox.Text == adminID)
+            {
+                if (pwTextBox.Password == adminPW)
+                {
+                    MessageBox.Show("로그인 완료!");
+                }
+                else
+                {
+                    MessageBox.Show("잘못된 비밀번호입니다.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("잘못된 아이디입니다.");
+            }
+        }
+
     }
 
 }

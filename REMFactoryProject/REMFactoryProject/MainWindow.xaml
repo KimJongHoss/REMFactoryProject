@@ -27,9 +27,9 @@
                 </TabItem.Header>
                 <Grid>
                     <ScottPlot:WpfPlot x:Name="WpfPlot1" Margin="350,58,48,264" />
-                    <Slider x:Name="sliderLine1" Maximum="100" TickFrequency="5" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="10,100,564,438" ValueChanged="slider_valueChanged"/>
-                    <Slider x:Name="sliderLine2" Maximum="100" TickFrequency="5" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="10,185,564,353" ValueChanged="slider_valueChanged"/>
-                    <Slider x:Name="sliderLine3" Maximum="100" TickFrequency="5" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="10,268,564,268" ValueChanged="slider_valueChanged"/>
+                    <Slider x:Name="sliderLine1" Maximum="10000" TickFrequency="5" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="10,100,564,438" ValueChanged="slider_valueChanged"/>
+                    <Slider x:Name="sliderLine2" Maximum="10000" TickFrequency="5" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="10,185,564,353" ValueChanged="slider_valueChanged"/>
+                    <Slider x:Name="sliderLine3" Maximum="10000" TickFrequency="5" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="10,268,564,268" ValueChanged="slider_valueChanged"/>
                     <Label x:Name="labelLine1" Margin="57,36,667,484"/>
                     <Label x:Name="labelLine2" Margin="57,120,667,397"/>
                     <Label x:Name="labelLine3" Margin="57,205,667,315" RenderTransformOrigin="0.5,0.683"/>
@@ -54,6 +54,22 @@
                     </StackPanel>
                 </TabItem.Header>
             </TabItem>
+            <TabItem x:Name="tabManager">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image  Height="107" Width="108" Source="\Resources\optionicon.png" />
+                    </StackPanel>
+                </TabItem.Header>
+                <Grid x:Name="loginGrid">
+                    <Label Content="관리자 모드" Width="422" Margin="225,23,225,440" FontSize="72"></Label>
+                    <Label x:Name="idLabel" Content="ID" Margin="105,168,647,289" FontSize="72"/>
+                    <TextBox x:Name="idTextBox" TextWrapping="Wrap" Margin="225,168,236,289" FontSize="72"/>
+                    <Label x:Name="pwLabel" Content="PW" Margin="85,337,647,120" FontSize="72"/>
+                    <PasswordBox x:Name="pwTextBox" Margin="225,337,236,120" FontSize="72"/>
+                    <Button x:Name="managerLoginButton" Content="로그인" HorizontalAlignment="Left" Margin="225,477,0,0" VerticalAlignment="Top" Height="70" Width="411" RenderTransformOrigin="0.324,0.302" FontSize="36" Click="managerLoginButton_Click"/>
+                </Grid>
+            </TabItem>
+
         </TabControl>
     </Grid>
 </Window>
