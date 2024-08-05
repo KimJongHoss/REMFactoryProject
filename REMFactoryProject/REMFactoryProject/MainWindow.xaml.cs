@@ -23,6 +23,7 @@ namespace REMFactoryProject
         {
             InitializeComponent();
             chart1();
+            getPanel2Data();
         }
 
         private void slider_valueChanged(object sender, RoutedEventArgs e)

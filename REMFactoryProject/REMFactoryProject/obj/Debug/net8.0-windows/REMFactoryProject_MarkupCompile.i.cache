@@ -4,28 +4,16 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\KJH\REMFactoryProject\REMFactoryProject\REMFactoryProject\obj\Debug\net8.0-windows\
-=======
-C:\Users\USER\Desktop\라디알가그\REMFactoryProject\REMFactoryProject\REMFactoryProject\obj\Debug\net8.0-windows\
->>>>>>> dev
 REMFactoryProject
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-<<<<<<< HEAD
 C:\KJH\REMFactoryProject\REMFactoryProject\REMFactoryProject\App.xaml
 11407045341
 
 111111282770
-2171303372301
-=======
-C:\Users\USER\Desktop\라디알가그\REMFactoryProject\REMFactoryProject\REMFactoryProject\App.xaml
-11407045341
-
-111111282770
-2191906329712
->>>>>>> dev
+219468068291
 MainWindow.xaml;
 
 True
