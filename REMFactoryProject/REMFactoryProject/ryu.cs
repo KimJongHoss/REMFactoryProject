@@ -97,7 +97,7 @@ namespace REMFactoryProject
             var df_2 = df.Rows.Where(row => row["발전기명"].ToString().Contains("태양광2") == true).ToList();
             var df_3 = df.Rows.Where(row => row["발전기명"].ToString().Contains("태양광3") == true).ToList();
             List<int> list = new List<int>();
-            List<string> date = new List<string>();
+            List<DateTime> date = new List<DateTime>();
 
             for (int i = 0; i < df_1.Count(); i++)
             {
@@ -111,14 +111,14 @@ namespace REMFactoryProject
             {
                 for (int j = 1; j <= 24; j++)
                 {
-                    date.Add(Convert.ToString(df_1[0][1]).Substring(0, 8) + $" {i}");
+                    date.Add(Convert.ToDateTime(df_1[i][2]));
                 }
             }
             int count = 0;
             while (IsReading)
             {
                 Thread.Sleep(1000);
-                var now = DateTime.Now;
+                var now = date[count];
 
                 _trend = list[count];
 
