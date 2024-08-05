@@ -9,6 +9,7 @@ using System.Windows;
 using System.Windows.Controls;
 using Microsoft.Data.Analysis;
 using System.Diagnostics.Eventing.Reader;
+using ScottPlot.AxisLimitManagers;
 
 namespace REMFactoryProject
 {
@@ -105,6 +106,8 @@ namespace REMFactoryProject
                 if (pwTextBox.Password == adminPW)
                 {
                     MessageBox.Show("로그인 완료!");
+                    loginGrid.Visibility = Visibility.Collapsed;
+                    managerPage.Visibility = Visibility.Visible;
                 }
                 else
                 {
@@ -116,6 +119,20 @@ namespace REMFactoryProject
                 MessageBox.Show("잘못된 아이디입니다.");
             }
         }
+
+        //public void SetManagerPage()
+        //{
+        //    // 값 설정
+        //    if (double.TryParse(valueTextBox.Text, out sliderLine1.Maximum))
+        //    {
+        //        // 슬라이더 값 설정
+        //        slider.Value = sliderLine1.Maximum;
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Invalid value.");
+        //    }
+        //}
 
     }
 
