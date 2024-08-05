@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|c:\\kjh\\remfactoryproject\\remfactoryproject\\remfactoryproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|solutionrelative:remfactoryproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:REMFactoryProject\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|C:\\KJH\\REMFactoryProject\\REMFactoryProject\\remfactoryproject\\resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|solutionrelative:remfactoryproject\\resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\bell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:REMFactoryProject\\bell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|c:\\kjh\\remfactoryproject\\remfactoryproject\\remfactoryproject\\bell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|solutionrelative:remfactoryproject\\bell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:REMFactoryProject\\MainWindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|c:\\kjh\\remfactoryproject\\remfactoryproject\\remfactoryproject\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{A2135052-83CE-490C-A669-78E75C782556}|REMFactoryProject\\REMFactoryProject.csproj|solutionrelative:remfactoryproject\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\KJH\\REMFactoryProject\\REMFactoryProject\\remfactoryproject\\resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:remfactoryproject\\resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "bell.cs",
               "DocumentMoniker": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\bell.cs",
               "RelativeDocumentMoniker": "REMFactoryProject\\bell.cs",
@@ -84,12 +84,11 @@
               "RelativeToolTip": "REMFactoryProject\\bell.cs",
               "ViewState": "AQIAAHEAAAAAAAAAAAAIwIYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T01:52:59.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T02:34:48.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "REMFactoryProject\\MainWindow.xaml.cs",
@@ -97,20 +96,18 @@
               "RelativeToolTip": "REMFactoryProject\\MainWindow.xaml.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAUwEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T01:01:11.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T02:34:48.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Resource1.resx",
               "DocumentMoniker": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\Resource1.resx",
               "RelativeDocumentMoniker": "REMFactoryProject\\Resource1.resx",
               "ToolTip": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\Resource1.resx",
               "RelativeToolTip": "REMFactoryProject\\Resource1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-08-02T00:58:23.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T02:34:48.311Z"
             },
             {
               "$type": "Document",
@@ -120,8 +117,9 @@
               "RelativeDocumentMoniker": "REMFactoryProject\\MainWindow.xaml",
               "ToolTip": "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\MainWindow.xaml",
               "RelativeToolTip": "REMFactoryProject\\MainWindow.xaml",
+              "ViewState": "AQIAAF0AAAAAAAAAAADwv3IAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-02T00:49:10.779Z",
+              "WhenOpened": "2024-08-05T02:34:48.313Z",
               "EditorCaption": ""
             }
           ]

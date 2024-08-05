@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\KJH\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jongho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\USER\\Desktop\\라디알가그\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\USER\\Desktop\\라디알가그\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\라디알가그\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject.csproj",
+        "projectName": "REMFactoryProject",
+        "projectPath": "C:\\Users\\USER\\Desktop\\라디알가그\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\라디알가그\\REMFactoryProject\\REMFactoryProject\\REMFactoryProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> dev
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +39,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
@@ -45,6 +63,13 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+<<<<<<< HEAD
+=======
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+>>>>>>> dev
             "Microsoft.Data.Analysis": {
               "target": "Package",
               "version": "[0.21.1, )"
